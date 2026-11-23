@@ -48,6 +48,6 @@ public class GameOverScript : MonoBehaviour
         yield return new WaitForSeconds(restartDelay);
 
         // 3. Reload the currently active scene
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(0);
     }
 }
