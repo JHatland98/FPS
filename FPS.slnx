@@ -1,5 +1,7 @@
 ﻿<Solution>
+  <Project Path="OptiWater.Editor.csproj" />
   <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="OptiWater.csproj" />
   <Project Path="Unity.StarterAssets.csproj" />
   <Project Path="Unity.StarterAssets.Editor.csproj" />
   <Project Path="URPWizard.csproj" />
