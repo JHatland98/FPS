@@ -52,7 +52,7 @@ public class EnemyHealth : MonoBehaviour
 
         enemyColl.enabled = false;
 
-        GetComponent<Animator>().SetTrigger("die");
+        GetComponentInChildren<Animator>().SetTrigger("die");
    }
 
 }

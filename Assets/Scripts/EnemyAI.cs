@@ -72,16 +72,16 @@ public class EnemyAI : MonoBehaviour
 
     private void ChaseTarget()
     {
-        GetComponent<Animator>().SetBool("attack", false);
+        GetComponentInChildren<Animator>().SetBool("attack", false);
 
-        GetComponent<Animator>().SetTrigger("run");
+        GetComponentInChildren<Animator>().SetTrigger("run");
 
          nma.SetDestination(target.position);
     }
 
     private void AttackTarget()
     {
-        GetComponent<Animator>().SetBool("attack", true);
+        GetComponentInChildren<Animator>().SetBool("attack", true);
 
 
         // temp for now to show enemy is attackgin
